@@ -1,3 +1,12 @@
+import React, { Component } from 'react';
+
+
+class Pokecard extends Component {
+  render() {
+    return <h1>Pokecard</h1>
+  }
+}
+
 pokemon = [
     {id: 4, name: 'Charmander', type: 'fire', base_experience: 62},
     {id: 7, name: 'Squirtle', type: 'water', base_experience: 63},
@@ -8,3 +17,5 @@ pokemon = [
     {id: 94, name: 'Gengar', type: 'poison', base_experience: 225},
     {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
   ]
+
+  export default Pokecard
