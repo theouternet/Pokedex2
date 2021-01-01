@@ -12,7 +12,7 @@ class Pokecard extends Component {
     let imgSrc = `${POKE_API}${id}.png`;
     
     return (
-    <div>
+    <div className="Pokecard">
       <h1>{name}</h1>
       <h1>{id}</h1>
 
